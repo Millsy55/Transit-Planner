@@ -12,6 +12,8 @@
    ========================================================================== */
 
 html {
+  font-family: "Calibri";
+  font-weight: 600;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -83,9 +85,95 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* Start    */
+#start{
+  width: 66%;
+  height: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  position: absolute;
+}
+
+#start-header{
+  color: #000000;
+}
+/* Start Menu */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 #map {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
   }
+
+/* Sidebar
+========================================*/
+#sidebar{
+  padding: 12px;
+  width: 20%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.50);
+  position: absolute;
+}
+#sidebar-lines{
+
+}
+
+.sidebar-mode{
+  height: 3em;
+}
+
+.sidebar-mode:hover{
+  height: 10em;
+}
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

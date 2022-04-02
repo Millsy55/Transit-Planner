@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -12,6 +12,10 @@
   <meta property="og:type" content="Tool">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@AdamMillsy">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -19,16 +23,54 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+  <link rel="stylesheet" href="js/leaflet/leaflet.css">
 
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <script src="js/leaflet/leaflet.js"></script>
 </head>
 
 <body>
   <div id="map"></div>
+  <!-- <div id ="start">
+    <div id="start-header">Transit Planner</div>
+    <div id="start-options">
+      <div class="start-options-section" id="start-options-city">
+        <div class="dropdown">
+          <button class="dropbtn">Metro Area</button>
+            <div class="dropdown-content">
+              <a>Toronto</a>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="start-options-section" id="start-options-load">
+
+      </div>
+    </div>
+  </div> -->
+  <div id="sidebar">
+    <div id="sidebar-lines">
+      <div class="sidebar-mode">
+        <div class="sidebar-mode-title">Regional Rail</div>
+      </div>
+      <div class="sidebar-mode">
+        <div class="sidebar-mode-title">Subway</div>
+      </div>
+      <div class="sidebar-mode">
+        <div class="sidebar-mode-title">Light Rail</div>
+      </div>
+      <div class="sidebar-mode">
+        <div class="sidebar-mode-title">Streetcar</div>
+      </div>
+      <div class="sidebar-mode">
+        <div class="sidebar-mode-title">Bus</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src='js/planner/main.js'></script> -->
 </body>
 
 </html>
