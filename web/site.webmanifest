@@ -1,6 +1,6 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Transit Planner",
+  "name": "Transit Planner",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
