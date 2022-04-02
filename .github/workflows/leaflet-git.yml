@@ -27,4 +27,4 @@ jobs:
       - name: Run a multi-line script
         run: 
           # Leaflet 1.7.1 src
-          git submodule add git://github.com/Leaflet/Leaflet/src@bd88f73e8ddb90eb945a28bc1de9eb07f7386118.git Transit-Planner/leaflet/src
+          git submodule add git://github.com/Leaflet/Leaflet/src.git Transit-Planner/leaflet/src
