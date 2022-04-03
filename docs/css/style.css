@@ -171,6 +171,23 @@ textarea {
   height: 10em;
 }
 
+.sidebar-mode-title{
+  float:left;
+}
+.sidebar-mode-button{
+  margin:0.2em;
+  content: "\02796";
+  background: 'black';
+  font-color: 'grey';
+  float:right;
+}
+.sidebar-mode-button: inactive{
+  "\02795"
+
+}
+
+.sidebar-mode-button: active{
+  "\02796"
 }
 
 
