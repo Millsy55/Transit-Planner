@@ -182,8 +182,28 @@ textarea {
   height: 10em;
 }
 
+<<<<<<< HEAD
 .sidebar-header{
 
+=======
+.sidebar-mode-title{
+  float:left;
+}
+.sidebar-mode-button{
+  margin:0.2em;
+  content: "\02796";
+  background: 'black';
+  font-color: 'grey';
+  float:right;
+}
+.sidebar-mode-button: inactive{
+  "\02795"
+
+}
+
+.sidebar-mode-button: active{
+  "\02796"
+>>>>>>> 9b7f3a8724674b7f9270403ddb77efa58e1713b5
 }
 
 
