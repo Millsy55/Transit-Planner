@@ -1,0 +1,15 @@
+#settings{
+  background: rgba(0, 0, 0, 0.50);
+  margin: auto;
+  width: 95%;
+  height: 95%;
+  border: 2px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#settings-header{
+  padding: 0.2em;
+}
