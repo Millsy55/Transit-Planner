@@ -1,0 +1,13 @@
+{
+  "region": "Greater Toronto Area"{
+  "cities":[
+    {
+      "name": "Toronto",
+      "operator": "TTC"{
+        "icon":
+      },
+    }
+  ],
+
+},
+}
