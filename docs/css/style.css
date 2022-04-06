@@ -86,9 +86,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.leaflet-control-zoom{
+  visibility: hidden;
+}
+
 .header{
   font-size: 2em;
   font-weight: bold;
+}
+
+.btn{
+
+}
+
+button{
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  color:inherit;
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 /* Start    */
@@ -161,7 +179,7 @@ textarea {
   left: 0px;
   top: 0px;
   bottom: 0px;
-  z-index: 1000;
+  z-index: 500;
   background: rgba(0, 0, 0, 0.50);
   position: absolute;
 }
@@ -207,7 +225,47 @@ textarea {
   "\02796"
 }
 
+#sidebar-settings-button{
+  position: absolute;
+  bottom:0.5em;
+  left: 0.5em;
+}
 
+/* Settings */
+=============================================================================
+
+#settings-main{
+  color: white;
+}
+
+.window{
+  visibility: hidden;
+}
+
+#settings{
+  width: 95%;
+  height: 95%;
+  margin-left:2.5%;
+  margin-top:1%;
+  border: 2px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  z-index: 1000;
+}
+
+#settings-header{
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  float: left;
+}
+#settings-exit-button{
+  float: right;
+  padding-right: 0.5em;
+  font-size: 2em;
+}
 
 /* ==========================================================================
    Helper classes

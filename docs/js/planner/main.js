@@ -9,3 +9,12 @@ L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Li
 var layer_stations = L.featureGroup();
 
 map.addLayer(layer_stations);
+
+
+function settingsHide(){
+  document.getElementById("settings-main").style.visibility = "hidden";
+}
+
+function settingsShow(){
+  document.getElementById("settings-main").style.visibility = "visible";
+}

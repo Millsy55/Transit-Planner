@@ -29,6 +29,7 @@
 </head>
 
 <body>
+
   <div id="map"></div>
   <!-- <div id ="start">
     <div id="start-header">Transit Planner</div>
@@ -50,6 +51,22 @@
       </div>
     </div>
   </div> -->
+
+<!-- Settings -->
+<!-- ================================================================== -->
+
+  <div class = "window" id="settings-main">
+    <div id="settings">
+      <div id="settings-header" class="header">Settings</div>
+        <button id="settings-exit-button" class="exit-button-large" onclick="settingsHide()">
+          &mdash;
+        </button>
+      </div>
+  </div>
+
+<!-- Sidebar -->
+<!-- ================================================================== -->
+
   <div id="sidebar">
     <div id="sidebar-lines">
       <div class="sidebar-header">Lines</div>
@@ -70,9 +87,11 @@
         <div class="sidebar-mode-title">Bus</div>
       </div>
     </div>
+    <button id=sidebar-settings-button onclick="settingsShow()">
+      <img src='img/icons/settings.ico' size= height= 20, width= 20 ></button>
+    </button>
   </div>
-
-  <!-- <script src='js/planner/main.js'></script> -->
+  <script src='js/planner/main.js'></script>
 </body>
 
 </html>

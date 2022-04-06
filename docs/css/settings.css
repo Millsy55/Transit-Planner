@@ -1,8 +1,10 @@
 #settings{
   background: rgba(0, 0, 0, 0.50);
-  margin: auto;
+  margin: 0px auto;
   width: 95%;
   height: 95%;
+  left: 2.5%;
+  top: 2.5%;
   border: 2px;
   border-color: #000000;
   border-style: solid;
@@ -11,5 +13,12 @@
 }
 
 #settings-header{
-  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  float: left;
+}
+#settings-exit-button{
+  float: right;
+  padding-right: 0.5em;
+  font-size: 2em;
 }
