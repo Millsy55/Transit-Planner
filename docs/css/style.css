@@ -14,7 +14,7 @@
 html {
   font-family: "Calibri";
   font-weight: 600;
-  color: #222;
+  color: #ffffff;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -165,13 +165,27 @@ textarea {
 
 .sidebar-mode{
   height: 3em;
+  border: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.sidebar-mode-title{
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: 400;
 }
 
 .sidebar-mode:hover{
   height: 10em;
 }
 
+.sidebar-header{
+
 }
+
 
 
 /* ==========================================================================
