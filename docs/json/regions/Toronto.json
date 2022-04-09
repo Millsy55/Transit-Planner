@@ -1,13 +1,23 @@
 {
   "region": "Greater Toronto Area"{
-  "cities":[
-    {
-      "name": "Toronto",
-      "operator": "TTC"{
-        "icon":
+    "cities":[
+      {
+        "name": "Toronto",
+        "operator": "TTC",
+        "rr_operator": "GO"
       },
+      {
+
+      },
+    {
+      "name": "Mississauga",
+      "operator": "MiWay"
     }
-  ],
+    {
+      "name": "Hamilton",
+      "operator": "HSR"
+    }
+  ]
 
 },
 }
