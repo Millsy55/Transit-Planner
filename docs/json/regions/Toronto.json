@@ -2,6 +2,10 @@
   "region": "Greater Toronto Area"{
   "cities":[
     {
+      "name": "Hamilton"
+      "operator": "HSR"
+    },
+    {
       "name": "Toronto",
       "operator": "TTC"{
         "icon":
