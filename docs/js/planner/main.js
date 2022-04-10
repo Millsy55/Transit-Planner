@@ -18,3 +18,11 @@ function settingsHide(){
 function settingsShow(){
   document.getElementById("settings-main").style.visibility = "visible";
 }
+
+function infoShow(){
+  document.getElementById("info-main").style.visibility = "visible";
+}
+
+function infoHide(){
+  document.getElementById("info-main").style.visibility = "hidden";
+}
