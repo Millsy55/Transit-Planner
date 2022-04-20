@@ -99,6 +99,10 @@ textarea {
 
 }
 
+a{
+  color:white;
+}
+
 button{
   background-color: rgba(0,0,0,0);
   border: 0;
@@ -225,12 +229,21 @@ button:hover{
   "\02796"
 }
 
+.sidebar-btm-button{
+
+}
+
 #sidebar-settings-button{
   position: absolute;
   bottom:0.5em;
   left: 0.5em;
 }
 
+#sidebar-info-button{
+  position: absolute;
+  bottom:0.5em;
+  right: 0.5em;
+}
 /* Settings */
 =============================================================================
 
@@ -242,16 +255,19 @@ button:hover{
   visibility: hidden;
 }
 
-#settings{
-  width: 95%;
-  height: 95%;
-  margin-left:2.5%;
-  margin-top:1%;
+.box{
   border: 2px;
   border-color: #000000;
   border-style: solid;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.75);
+}
+
+#settings{
+  width: 95%;
+  height: 95%;
+  margin-left:2.5%;
+  margin-top:1%;
   position: absolute;
   z-index: 1000;
 }
@@ -267,6 +283,40 @@ button:hover{
   font-size: 2em;
 }
 
+/* Info */
+
+#info-main{
+  visibility: visible;
+  color: white;
+}
+
+#info{
+  width: 50%;
+  height: 50%;
+  margin-left:35%;
+  margin-top:10%;
+  position: absolute;
+  z-index: 1000;
+}
+
+#info-header{
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  float: left;
+}
+#info-exit-button{
+  float: right;
+  padding-right: 0.5em;
+  font-size: 2em;
+}
+
+#info-text{
+  padding: 5px;
+  text-align:center;
+  top:40%;
+  position: relative;
+  font-weight: normal;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -377,53 +427,3 @@ button:hover{
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
