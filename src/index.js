@@ -9,6 +9,7 @@ L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Li
         minZoom: 8
 }).addTo(map);
 
+var penis;
 var layer_stations = L.featureGroup();
 
 map.addLayer(layer_stations);
